@@ -1,115 +1,96 @@
 <!DOCTYPE html>
 <head> 
-    <!-- predefined jumbotron-->
-    <style type="text/css">
-.jumbotron {
-    padding: 4rem 2rem;
-    margin-bottom: 2rem;
-    background-color: var(--bs-light);
-    border-radius: .3rem;  
-  }
+    <!-- My css page -->
+    <link rel="stylesheet" href="portfolio.css">
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-    </style>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <!-- Bootstrap cdn link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static '/css/ps_blog_master.css' %}"/>
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+    <!-- Link for social media symbol -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <!-- Google API font links -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,700&display=swap" rel="stylesheet">
     <title>MG Development</title>
 </head>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#blog-info-div" aria-controls="covid-info-div" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="blog-info-div">
-        <div class="navbar-nav">
-          <a class="nav-link" id='home_link' href="index.html">Home</a>
-          <a class="nav-link" id='upcoming_link' href="about.html">About</a>
-        </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">MG Development</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Add a link to the Signup page -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" href="about.html">About</a>
+    </div>
+  </div><!-- /.navbar-collapse -->
+
+</nav>
+
+<body>  
+      <h1 id="main_header">Maliak Green</h1>
+    
+  <div class="container">
+    <h2 id="console_header">Web applications</h2>
+    <hr>
+    <div class="row" id="web_app_content">
+      <div class="col-lg-12 col-12 px-0">
+        <p id="blog_text">Gaming Blog (Django Framework)</p> 
+        <a id="blog_link" href="https://malikcodergreen.pythonanywhere.com">Click here and check out my site!</a>
+      </div>
+      
+    </div>
+    <hr>
+  </div><!-- /.container -->
+  <div class="container">
+    <h2 id="console_header">Console Applications</h2>
+    <p id="repo_text">Click any image to visit the repoistory!</p>
+    <div class="row" id="console_content">
+      <div class="col-lg-4 col-8 col-md-4 px-0">
+        <a href="https://github.com/MalikCoderGreen/HangMan-">
+        <img id="hangMan" class="img-thumbnail img-fluid" style="width: 300px; height: 300px;" src="hangMan.png" alt="">
+        </a>
+        <p id="hang_text">Hangman</p> <p id="py">Python</p>
+      </div>
+      <div class="col-lg-4 col-8 col-md-4 px-0">
+        <a href="https://github.com/MalikCoderGreen/Monster-Chase">
+        <img id="monster" class="img-thumbnail img-fluid" style="width: 300px; height: 300px;" src="monster_chaser.png" alt="">
+        </a>
+        <p id="monster_text">Monster chaser</p> <p id="py">Python</p>
+      </div>
+      <div class="col-lg-4 col-8 col-md-4 px-0">
+        <a href="https://github.com/MalikCoderGreen/Linear-Regression-of-Oridnary-Least-Squares">
+        <img id="ols" class="img-thumbnail img-fluid" style="width: 300px; height: 300px;" src="ols.png" alt="">
+        </a>
+        <p id="regress">Regression line</p> <p id="cpp">C++</p>
+        
       </div>
     </div>
-  </nav>
+  </div><!-- /.container -->
 
-<body style="background-color: rgb(19, 95, 58);">
-
-    <div class="jumbotron">
-      <h1 style="color: rgb(19, 95, 58);" id="main_header">Maliak Green</h1>
-      <span>
-        <a href="https://www.linkedin.com/in/maliak-green-308177144/" style="float:right" class="fa fa-linkedin"></a> 
-      </span>
-    </div>
-  
-    
-    <div class="container">
-        <h2 style="color: white;">Web applications / Websites</h2>
-        <hr>
-        <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3 style="color: white;">Link: <a style="color:white;" href="https://malikcodergreen.pythonanywhere.com">Gaming blog website</a></h3>
-            <p style="color: white;">
-                Built using: Python 3.8, HTML, CSS
-               <br> Framework: Django
-            </p>
-           </div>      
-        </div>
-        &nbsp;
-
-        <h2 style="color: white;">Console Applications</h2>
-        <hr>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3 style="color: white;">Link: <a style="color:white;" href="https://github.com/MalikCoderGreen/Monster-Chase">Monster Chaser</a></h3>
-            <p style="color: white;">
-              Built using: Python 3.8
-             <br> Module(s): Pygame
-             <br><strong>Description:</strong> The user must collect all coins spawned on to the screen before the moster A.I. agent tracks their position and captures them. 
-          </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3 style="color: white;">Link: <a style="color:white;" href="https://github.com/MalikCoderGreen/HangMan-">Hangman</a></h3>
-            <p style="color: white;">
-              Built using: Python 3.8
-             <br> Module(s): random, "my_diction" (custom made dictionary)
-             <br> <strong>Description:</strong> This program provides a console image of a hangman and allows the user to guess the right letters in order to solve the word; the user has 6 tries. 
-          </p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h3 style="color: white;">Link: <a style="color:white;" href="https://github.com/MalikCoderGreen/Linear-Regression-of-Oridnary-Least-Squares">Linear regression of ordinary least squares</a></h3>
-            <p style="color: white;">
-              Built using: C++ 11
-             <br> Libraries: cmath, math.h, fstream, sstream
-             <br> <strong>Description:</strong> This program computes the a and b values of the linear equation: <strong>y = mx + b.</strong>
-          </p>
-          </div>
-        </div>
-    </div>
 </body>
+<div class="container">
+<hr>
+</div>
+
+<footer>
+<!-- Social media icons at bottom of page-->
+<div class='table'>
+    <ul id="social_list">
+  <li><a href="https://www.linkedin.com/in/maliak-green-308177144/" id="linkedIn_link"><i class="fa fa-linkedin" style="font-size:50px; color: #007bb5;"></i></a></li>
+  <li><a href="https://www.github.com/MalikCoderGreen"><i class="fa fa-github" style="font-size:50px; color:red;"></i></a></li>
+    </ul>
+</div>
+</footer>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 
 
 

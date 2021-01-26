@@ -1,7 +1,122 @@
+/*
+.fa {
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 50px;
+  font-size: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 70%;
+  align-content: center;
+
+}
+*/
+
+.fa:hover {
+    opacity: 0.7;
+}
+/*
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+
+  
+}
+
+.fa-github {
+    color: red;
+    
+}
+*/
+
 #main_header{
-    color: rgb(13, 13, 77);
+    color: rgb(7, 197, 131);
+    font-family: 'Chakra Petch', sans-serif;
+    text-align: center;
+    font-size: 60px;
 }
 
 #home_link{
     color: white;
+}
+
+#social_medias #social_container{
+    text-align: center;
+}
+
+#social_list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#social_list li{
+    display: inline;
+    padding: 10px;
+
+}
+
+
+
+#hangMan:hover, #ols:hover, #monster:hover{
+    opacity: 0.7;
+}
+.table{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#console_header{
+    color: rgb(7, 197, 131);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 50px;
+}
+
+#about_h3{
+    color: rgb(7, 197, 131);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 50px;
+
+}
+/*
+#console_content p{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+*/
+
+#py{
+    color: rgba(14, 121, 252, 0.89);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+
+#cpp{
+    color: rgb(79, 19, 199);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+#repo_text, #blog_text{
+    color: rgb(79, 19, 199);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+
+}
+#monster_text, #hang_text, #regress{
+    color: rgb(7, 197, 131);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+}
+
+#mission_statement{
+    color:rgb(79, 19, 199);
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 35px;
+}
+
+#blog_link{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 20px;
 }
