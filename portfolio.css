@@ -32,6 +32,8 @@
 #main_header{
     color: rgb(7, 197, 131);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     text-align: center;
     font-size: 60px;
 }
@@ -71,12 +73,16 @@
 #console_header{
     color: rgb(7, 197, 131);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 50px;
 }
 
 #about_h3{
     color: rgb(7, 197, 131);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 50px;
 
 }
@@ -90,33 +96,45 @@
 #py{
     color: rgba(14, 121, 252, 0.89);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 30px;
 }
 
 #cpp{
     color: rgb(79, 19, 199);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 30px;
 }
 #repo_text, #blog_text{
     color: rgb(79, 19, 199);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 30px;
 
 }
 #monster_text, #hang_text, #regress{
     color: rgb(7, 197, 131);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 30px;
 }
 
 #mission_statement{
     color:rgb(79, 19, 199);
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 35px;
 }
 
 #blog_link{
     font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
     font-size: 20px;
 }
