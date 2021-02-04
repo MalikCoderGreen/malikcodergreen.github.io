@@ -38,6 +38,14 @@
     font-size: 60px;
 }
 
+#port_brand{
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
+}
+
 #home_link{
     color: white;
 }
@@ -93,6 +101,15 @@
 }
 */
 
+#description{
+    color: rgba(46, 47, 49, 0.89);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
+    font-size: 25px;
+
+}
+
 #py{
     color: rgba(14, 121, 252, 0.89);
     font-family: 'Chakra Petch', sans-serif;
@@ -130,6 +147,12 @@
     font-weight:900; 
     font-style:italic;
     font-size: 35px;
+}
+#about_link{
+    color: rgb(255, 255, 255);
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight:900; 
+    font-style:italic;
 }
 
 #blog_link{
